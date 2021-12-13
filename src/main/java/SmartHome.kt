@@ -94,7 +94,7 @@ class SmartHome : TelegramLongPollingBot() {
 
                     execute(
                         SendPhoto()
-                            .setCaption("вул. Світлицького 25")
+                            .setCaption("вул. Світлицького 35")
                             .setChatId(update.message.chatId)
                             .setPhoto("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSu_4jVNTI1Lw-Z0vR5ivmyEem9l-IHIT-Jw&usqp=CAU")
                     )
